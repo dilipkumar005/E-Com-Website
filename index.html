@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="burger">
+            <div class="layer1"></div>
+            <div class="layer2"></div>
+            <div class="layer3"></div>
+        </div>
+        <div class="logo">
+            <span class="logo-text"><i class="fa fa-book" style="margin-right: 0.1em;"></i>Comfort <span style="color: #f09d51; font-size: 1.1em;">Learning</span></span>
+        </div>
+
+        <div class="menubar">
+            <ul class="list">
+                <li class="list-items"><a href="./index.html">HOME</a></li>
+                <li class="list-items"><a href="#products">COURSES</a></li>
+                <li class="list-items"><a href="#products">PRICINGS</a></li>
+                <li class="list-items"><a href="#contact">CONTACT US</a></li>
+                <li class="list-items"><a href="#about">ABOUT US</a></li>
+            </ul>
+        </div>
+
+        <div class="cart">
+            <i class="fa fa-shopping-cart fa-1x"></i>
+            <div class="number-of-items"><span class="noi">0</span></div>
+        </div>
+    </nav>
+
+    <section class="section1">
+        <div class="banner">
+            <h1>Find Your Favourite <br>Courses Here!</h1>
+            <a href="#products">SHOP NOW</a>
+        </div>
+    </section>
+    
+    <section class="section2" id="products">
+        <div class="title">
+            <hr>
+            <h1>Courses We Offer!!</h1>
+            <hr>
+        </div>
+        <div class="product" id="product-list">
+            <!-- Products will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <div class="cart-sidebar">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fa fa-times"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content"></div>
+        </div>
+        <div class="total-sum">
+            <h1>Your Total: ₹ <span class="total-amount">0</span></h1>
+        </div>
+        <div class="clear-cart">
+            <button class="btn clear-cart btn" onclick="alert('Your Course Proceed')">Proceed</button>
+        </div>
+        <div class="clear-cart">
+            <button class="btn clear-cart-btn" onclick="alert('Your Cart will cleared')">Clear Cart</button>
+        </div>
+    </div>
+
+    <div class="menu-sidebar">
+        <div class="close-menu">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="menu-menubar">
+            <ul class="menu-list">
+                <li class="menu-list-items"><a href="#">Home</a></li>
+                <li class="menu-list-items"><a href="#">Categories</a></li>
+                <li class="menu-list-items"><a href="#">Pricing</a></li>
+                <li class="menu-list-items"><a href="#">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <h4 id="about">About Us</h4>
+                    <p>Learn more about our company and our mission to provide quality online courses. <br><br>
+                        At Comfort Learning, we believe that education is a lifelong journey, and we are committed to making this journey accessible and enjoyable for everyone.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#products">Courses</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 id="contact">Contact Us</h4>
+                    <p>Email: support@comfortlearning.com</p>
+                    <p>Phone: +91 1234 567 890</p>
+                    <address>Address: 011, Sasni Gate, Aligarh, India</address>
+                </div>
+            </div>
+            <hr>
+            <p class="footer-copy">&copy; 2024 Comfort Learning&reg;. All rights reserved.</p>
+            <hr>
+            <p class="footer-copy">Designed by Mr.Deep</p>
+        </div>
+    </footer>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
