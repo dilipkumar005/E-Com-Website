@@ -17,8 +17,11 @@ The Comfort Learning E-commerce website is a platform that offers a wide range o
 ## Features
 
 **Responsive Design:** The website is fully responsive and works seamlessly on various devices.
+
 **Dynamic Product Listings:** Courses are dynamically loaded and displayed on the website.
+
 **Shopping Cart Functionality:** Users can add courses to their cart, view the cart, and proceed to checkout.
+
 **User -Friendly Navigation:** Easy navigation through the menu and quick access to different sections of the website.
 
 ## Technologies Used
@@ -72,5 +75,7 @@ git push origin feature/YourFeature
 For any inquiries, please contact:
 
 **Email:** support@comfortlearning.com
+
 **Phone:** +91 1234 567 890
+
 Thank you for visiting the Comfort Learning E-Commerce Website repository! Happy Learning!.
