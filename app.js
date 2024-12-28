@@ -19,6 +19,14 @@ menuButton.addEventListener("click", function () {
     menuSidebar.style.transform = "translate(0%)";
     document.querySelector(".overlay").style.display = "block";
 });
+
+// Add event listener to the login link in the mobile menu
+document.querySelector('.menu-list-items a[href="#login"]').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default anchor behavior
+    openModal(); // Open the modal
+    showLoginForm(); // Show the login form
+});
+
 // Event listener to close the menu sidebar when the close button is clicked
 closeMenu.addEventListener("click", function () {
     menuSidebar.style.transform = "translate(-100%)";
@@ -216,9 +224,18 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById('register-form').style.display = 'block';
     }
 
-    // Add event listener to the login link
-    document.querySelector('.menubar .list-items a[href="#login"]').addEventListener('click', function(event) {
-        event.preventDefault();
-        openModal(); 
-        showLoginForm(); 
+    // // Add event listener to the login link
+    // document.querySelector('.menubar .list-items a[href="#login"]').addEventListener('click', function(event) {
+    //     event.preventDefault();
+    //     openModal(); 
+    //     showLoginForm(); 
+    // });
+
+    // Add event listener to the mobile menu items
+document.querySelectorAll('.menu-list-items a').forEach(item => {
+    item.addEventListener('click', function(event) {
+        // Close the menu sidebar after clicking
+        menuSidebar.style.transform = "translate(-100%)";
+        document.querySelector(".overlay").style.display = "none";
     });
+});
