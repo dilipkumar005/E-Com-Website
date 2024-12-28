@@ -6,14 +6,15 @@ The Comfort Learning E-commerce website is a platform that offers a wide range o
 
 ## Link for Project Website
 
-- [E-Com-Website](#https://dilipkumar005.github.io/E-Com-Website/)
+ - [E-Com-Website](#https://dilipkumar005.github.io/E-Com-Website/)
 
 ## Table of Contents
 
 - [Features](#features)  
 - [Technologies Used](#technologies-used)  
 - [Installation](#installation)  
-- [Usage](#usage)  
+- [Usage](#usage)
+- [E-Com-Website](#https://dilipkumar005.github.io/E-Com-Website/) 
 - [Contributing](#contributing)  
 - [License](#license)  
 - [Contact Information](#contact-information)  
